@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { SLIDES } from '../data/dataSlides.js';
 
-function Slides({dataSlides}) {
+// function Slides({dataSlides}) {
+function Slides() {
     
     // console.log(dataSlides);
 
+    const dataSlides =  SLIDES;
     const [counter, setCounter] = useState(0)
 
     const handleNextClick  =()=>{
