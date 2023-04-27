@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, NavLink } from 'react-router-dom';
 
-import Articles from './components/Articles';
-import Slides from './components/Slides';
-import { ARTICLES } from './data/dataArticle';
-import { SLIDES } from './data/dataSlides';
+import Articles from './components/Articles.js';
+import Slides from './components/Slides.js';
+import { ARTICLES } from './data/dataArticle.js';
+import { SLIDES } from './data/dataSlides.js';
 import './App.css';
 
 const App = () => {
